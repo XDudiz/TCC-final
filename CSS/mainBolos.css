@@ -1,0 +1,106 @@
+#mainBolos{
+    background-color: #faf29d;
+    text-align: center;
+    height: 100%;
+}
+
+.cards{
+    position: relative;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.card1{
+    position: relative;
+}
+
+.card2{
+    position: relative;
+}
+
+.card1 .imgPrincipal{
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.card2 .imgPrincipal{
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.card3 .imgPrincipal{
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.card4 .imgPrincipal{
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.fadeIn{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.imgCard:hover .fadeIn{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.imgCard:hover .imgPrincipal{
+    transform: scale(1.1);
+}
+
+.textoIn{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+.imgCard{
+    height: 300px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.imgCard .imgPrincipal{
+    padding: 0;
+    transition: all 0.5s;
+    opacity:1;
+}
+
+@media (max-width: 700px){
+    .cards{
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .card{
+        margin-bottom: 80px;
+    }
+    
+    #mainBolos{
+        height: 100%;
+    }
+}

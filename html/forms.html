@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/form.css">
+    <link rel="stylesheet" href="../CSS/nav.css">
+    <link rel="stylesheet" href="../CSS/nav2.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+</head>
+<header></header>
+<section id="myNav" class="nav2">
+    <ul>
+        <li><a href="#" class="closebtn" onclick="closeNav()"><img src="../ICONS/excluir.png" alt=""></a></li>
+        <li><a href="../index.html">INÍCIO</a></li>
+        <li><a href="Pbolos.html">BOLOS</a></li>
+        <li><a href="bolos de pote.html">BOLOS DE POTE</a></li>
+        <li> <a href="forms.html">CADASTRE-SE</a></li>
+    </ul>
+</section>
+<hr size="15" style="border: none; background-color: #f564d7;">
+<nav class="nav" id="navbar">
+    <img src="../ICONS/MENU.png" alt="" class="primeiro" id="openNav" onclick="openNav()">
+    <a href="../index.html">INÍCIO</a>
+    <a href="#">BOLOS</a>
+    <a href="#">BOLOS DE POTE</a>
+    <a href="forms.html">CADASTRE-SE</a>
+</nav>
+<div class="conteudo">
+    <main class="principal">
+        <section class="Cadastro">
+            <h1>Faça seu Cadastro</h1>
+            <label for=""><strong>Nome</strong></label>
+            <input id="Nome" placeholder="Seu nome completo">
+            <label for="">Idade</label>
+            <input id="Idade" type="number" placeholder="Sua idade">
+            <label for="">Endereço</label>
+            <input id="Endereço" placeholder="Rua. exemplo">
+            <label for="">email</label>
+            <input type="email" placeholder="exemplo@gmail.com">
+            <label for="">Confirme seu email</label>
+            <input id="Email" type="email" placeholder="exemplo@gmail.com">
+            <label for="">senha</label>
+            <input id="Senha" type="password" placeholder="Digite sua senha">
+            <label for="">Confirme a senha</label>
+            <input id="Senha.confirmar"type="password" placeholder="Confirme sua senha"> <br>
+            <button class="enviar">Entrar</button>
+    </section>
+</main>
+<hr size="588.5" width="3" style="border: none; background-color: #f564d7;">
+<main class="conteudo2">
+    <section class="Login">
+        <h1>Login</h1>
+        <label for="">email</label>
+        <input id="Email" placeholder="exemplo@gmail.com"><br>
+        <label for="">senha</label>
+        <input type="password" id="Senha" placeholder="Digite sua senha"><br>
+        <button class="entrar">Entrar</button>  
+    </section>
+</main>
+</div>
+
+<footer id="myFooter">
+    <div class="conteudoF">
+        <div class="open">
+        <h2>FUNCIONAMENTO</h2>
+            <p>Segunda a Quinta.....09:00-22:00</p>
+            <p>Sexta e Sabado.....09:00-00:00</p>
+            <p>Domingos.....09:00-18:00</p>
+        </div>
+        <div class="loc">
+        <h2>LOCATIONS</h2>
+            <p>Location 1:</p>
+            <p>Rua das Fermatas, 18</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.606306627356!2d-46.7604578!3d-23.690033099999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5216fab7353b%3A0x410eb70757850245!2sR.%20das%20Fermatas%20-%20Jardim%20Angela%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004941-172!5e0!3m2!1spt-BR!2sbr!4v1687279993794!5m2!1spt-BR!2sbr" width="350" height="250px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contF">
+            <h2>CONTATO</h2>
+            <P>TELEFONE/WHATSAPP:+55 11 95476-0433</P>
+            <P>E-MAIL: <a href="">MARI.BOLOS@GMAIL.COM</a></P>
+            <P>REDE SOCIAIS:</P>
+            <div class="iconsF">
+                <a href="https://www.instagram.com/mari_bolos123/" target="_blank"><img src="ICONS/instagram.png" alt="" height="30px"></a>
+                <a href=""><img src="ICONS/whatsapp.png" alt="" height="30px"></a>
+            </div>
+        </div>
+    </div>
+    <div class="finalF"><p><strong>Obrigado por acessar a nossa loja mari bolos</strong></p>
+    <a href="sobre.html"><p class="sobre"><strong>Sobre</strong></p></a>
+    <small>copyright<sup>&copy;<sup> - Todos os direitos reservados.</small>
+    </div>
+</footer>
+<script src="../script.js"></script>
+    <script src="../nav.js"></script>
+    <script src="../modal.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+body
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1
+{
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.bolos
+{
+    display: flex;
+    justify-content: space-around;
+}
+.bolos3
+{
+    display: flex;
+}
+
+.poteC
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.poteC > .bolos .imgP{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow:3px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.potes
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.potes > .bolos1 .imgP
+{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+@media (max-width: 700px) {
+    .poteC{
+    flex-direction: column;
+    justify-content: center;
+    }
+    .poteC > .bolos .imgP{
+        margin-bottom: 0.5rem;
+    }
+
+    .potes > .bolos1 .imgP{
+        margin-bottom: 0.5rem;
+    }
+    .potes{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .potes > .bolos1{
+        margin: auto;
+    }
+    h1{
+        width: 100%;
+    }
+
+    body{
+        width: 100%;
+    }
+}

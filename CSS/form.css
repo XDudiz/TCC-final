@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.principal{
+    padding: 3rem;
+    background-color: #FAF29D;
+    display: flex;
+    align-items: center;  
+}  
+.Cadastro{
+    background-color: #FAF29D;
+    flex:50%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.Cadastro input
+{
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 15px; 
+    border: none;
+    border-bottom: 0.5px solid black;
+    box-shadow: 8px 3px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.Cadastro .enviar{
+    width: 55px;
+    
+}
+.Login{
+    background-color: #FAF29D;
+    flex:50%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 68px;
+}
+.Login input
+{
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 0.5px solid black;
+    box-shadow: 8px 3px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.Login
+{
+    width: 55px;
+    height: 20px;   
+}
+
+.entrar{
+    background-color: #f564d7;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 55px;
+}
+.enviar{
+    background-color: #f564d7;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 55px;
+
+}
+
+.conteudo{
+    display: flex;
+}
+
+.principal{
+    width: 45.3%;
+}
+
+.Login{
+    width: 650px;
+    padding-left: 25px;
+}
+
+.conteudo2{
+    background-color: #FAF29D;
+}
+
+button{
+    border: none;
+    
+}
+
+input{
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+@media (max-width: 700px){
+    .conteudo{
+        flex-direction: column;
+    }
+    .Login{
+        width: 100%;
+        height: 300px;
+    }
+    .principal{
+        width: 100%;
+    }
+    hr{
+        display: none;
+    }
+}

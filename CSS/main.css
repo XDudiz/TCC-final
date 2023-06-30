@@ -1,0 +1,122 @@
+main{
+    background-color: #faf29d;
+    text-align: center;
+    height: 100%;
+}
+
+.text{
+    display: flex;
+}
+
+.sla{
+    margin: 0%;
+    opacity: 1;
+}
+
+.cards{
+    position: relative;
+    display: flex;
+    padding: 10px;
+    height: 100%;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.card1{
+    position: relative;
+}
+
+.card2{
+    position: relative;
+}
+
+.card1 .imgP{
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.card2 .imgP{
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.card3 .imgP{
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.card4 .imgP{
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.fadeIn{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.imgCard:hover .fadeIn{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.imgCard:hover .imgP{
+    transform: scale(1.1);
+}
+
+.textoIn{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+.imgCard{
+    height: 300px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.imgCard .imgP{
+    padding: 0;
+    transition: all 0.5s;
+    opacity:1;
+}
+
+.carrosel{
+    width: 50%;
+    margin: auto;
+}
+
+@media (max-width: 700px){
+    .cards{
+        flex-wrap: wrap;
+       
+    }
+
+    .sup{
+        padding-bottom: 90px;
+        padding-top: 90px;
+    }
+    
+    #main{
+        height: 100%;
+    }
+}
