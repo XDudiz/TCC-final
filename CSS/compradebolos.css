@@ -1,0 +1,25 @@
+body{
+    background-color: #faf29d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.poteCo
+{
+    display: flex;
+}
+.compras1
+{
+    margin: 40px;
+}
+.imgP
+{
+    border-radius: 10px;
+}
+/*
+button
+{
+    background-color: green;
+    border-radius: 10px;
+    width: 300px;
+    height: 85px;
+}*/
