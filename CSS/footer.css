@@ -49,6 +49,12 @@ footer{
     margin-bottom: 0;
 }
 
+.iconsF{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
 @media (max-width: 700px){
     .conteudoF{
         flex-direction: column;
