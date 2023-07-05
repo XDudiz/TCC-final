@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bolo do São Paulo</title>
     <link rel="stylesheet" href="../CSS/compradebolos.css">
-    <link rel="shortcut icon" href="../IMG/logo.png" type="image/x-icon">
 </head>
 <body>
     <main class="poteCo">
@@ -15,7 +14,14 @@
         <div class="compras1">
         <h2>Bolo do São Paulo</h2>
         <h3>Bolo com recheio de chocolate branco, com as bordas no topo de chantilly, com bolinhas de chocolate, e no meio design o escudo do São Paulo.</h3>
+        <hr size="5" style="background-color: rgb(187, 178, 178);"><br>
+        <h1 class="dinheiro" id="Valor">R$ 00,00</h1><br>
+        <label for="">Qtd</label> <button class="button1" onclick="subtrair()">-</button> <span class="medir">0</span> <button class="button2" onclick="somar()">+</button><br><br>
+        <hr size="5" style="background-color: rgb(187, 178, 178);"><br>
+        <button class="comprar" onclick="conta()"> Comprar </button>
         </div>
     </main>
+    <script src="../comprar.js"></script>
+    <script src="../conta.js"></script>
 </body>
 </html>

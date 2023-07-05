@@ -52,6 +52,16 @@
     margin-top: 1rem; 
 }
 
+.ConModal > a > button{
+    width: 100%;
+    border: none;
+    box-shadow: 10px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 60px 10px 60px 10px;
+    background-color: #f564d7;
+    padding: 1rem;
+    margin-top: 1rem; 
+}
+
 @media (max-width: 800px) {
     .modalC{
         display: flex;

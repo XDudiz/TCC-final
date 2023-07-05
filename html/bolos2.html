@@ -5,9 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bolo de MM</title>
     <link rel="stylesheet" href="../CSS/compradebolos.css">
-    <link rel="shortcut icon" href="../IMG/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/nav.css">
+    <link rel="stylesheet" href="../CSS/nav2.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/header.css">
 </head>
 <body>
+    <header id="myheader"></header>
+    <section id="myNav" class="nav2">
+        <ul>
+            <li><a href="#" class="closebtn" onclick="closeNav()"><img src="../ICONS/excluir.png" alt=""></a></li>
+            <li><a href="../index.html">INÍCIO</a></li>
+            <li><a href="Pbolos.html">BOLOS</a></li>
+            <li><a href="bolos de pote.html">BOLOS DE POTE</a></li>
+            <li> <a href="forms.html">CADASTRE-SE</a></li>
+        </ul>
+    </section>
+<hr class="sla" size="15" style="border: none; background-color: #f564d7;">
+<nav class="nav" id="navbar">
+        <img src="../ICONS/MENU.png" alt="" class="primeiro" id="openNav" onclick="openNav()">
+        <a href="../index.html">INÍCIO</a>
+        <a href="Pbolos.html">BOLOS</a>
+        <a href="bolos de pote.html">BOLOS DE POTE</a>
+        <a href="forms.html">CADASTRE-SE</a>
+</nav>
     <main class="poteCo">
         <div class="imgP">
             <img src="../IMG/bolo2.jpeg" alt="" width="480px" height="480px">
@@ -17,7 +38,45 @@
         <h2>Tamanho G</h2>
         <h3>Bolo de MM com canundinhos recheados de chocolate, e o recheio do bolo e de chocolate branco cremoso que derrete na boca e cobertura recheada de MM´s por cima.
         </h3>
+        <hr size="5" style="background-color: rgb(187, 178, 178);"><br>
+        <h1 class="dinheiro" id="Valor">R$ 00,00</h1><br>
+        <label for="">Qtd</label> <button class="button1" onclick="subtrair()">-</button> <span class="medir">0</span> <button class="button2" onclick="somar()">+</button><br><br>
+        <hr size="5" style="background-color: rgb(187, 178, 178);"><br>
+        <button class="comprar" onclick="conta()"> Comprar </button>
         </div>
     </main>
+    <footer id="myFooter">
+        <div class="conteudoF">
+            <div class="open">
+            <h2>FUNCIONAMENTO</h2>
+                <p>Segunda a Quinta.....09:00-22:00</p>
+                <p>Sexta e Sabado.....09:00-19:00</p>
+                <p>Domingos.....09:00-18:00</p>
+            </div>
+            <div class="loc">
+            <h2>LOCATIONS</h2>
+                <p>Location 1:</p>
+                <p>Rua das Fermatas, 18</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.606306627356!2d-46.7604578!3d-23.690033099999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5216fab7353b%3A0x410eb70757850245!2sR.%20das%20Fermatas%20-%20Jardim%20Angela%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004941-172!5e0!3m2!1spt-BR!2sbr!4v1687279993794!5m2!1spt-BR!2sbr" width="350" height="250px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contF">
+                <h2>CONTATO</h2>
+                <P>TELEFONE/WHATSAPP:+55 11 95476-0433</P>
+                <P>E-MAIL: <a href="">MARI.BOLOS@GMAIL.COM</a></P>
+                <P>REDE SOCIAIS:</P>
+                <div class="iconsF">
+                    <a href="https://www.instagram.com/mari_bolos123/" target="_blank"><img src="../ICONS/instagram.png" alt="" height="30px"></a>
+                    <a href=""><img src="../ICONS/whatsapp.png" alt="" height="30px"></a>
+                </div>
+            </div>
+        </div>
+        <div class="finalF"><p><strong>Obrigado por acessar a nossa loja mari bolos</strong></p>
+        <a href="sobre.html"><p class="sobre"><strong>Sobre</strong></p></a>
+        <small>copyright<sup>&copy;<sup> - Todos os direitos reservados.</small>
+        </div>
+    </footer>
+    <script src="../comprar.js"></script>
+    <script src="../conta.js"></script>
+    <script src="../nav.js"></script>
 </body>
 </html>
