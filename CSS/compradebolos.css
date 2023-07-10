@@ -6,6 +6,10 @@ body{
 .poteCo
 {
     display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
 }
 .compras1
 {
@@ -22,7 +26,8 @@ button
     box-shadow: 10px 6px rgba(0, 0, 0, 0.3);
     background-color: #f564d7;
     border-radius: 10px 60px 10px 60px;
-    padding: 0.3rem;
+    padding: 0.5rem;
+    width: 8rem;
     margin-top: 1rem;
     margin-left: 10px;
 }
